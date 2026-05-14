@@ -11,7 +11,7 @@ namespace YksTakip
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=GRANGER\\SQLEXPRESS;Initial Catalog=SınavSurecTakip;Integrated Security=True");
+            SqlConnection baglan = new SqlConnection("Data Source=(local)\\SQLEXPRESS;Initial Catalog=SınavSurecTakip;Integrated Security=True");
             baglan.Open();
             return baglan;
         }

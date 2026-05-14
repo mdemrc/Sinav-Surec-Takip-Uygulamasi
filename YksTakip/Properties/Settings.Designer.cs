@@ -26,7 +26,7 @@ namespace YksTakip.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=GRANGER\\SQLEXPRESS;Initial Catalog=SınavSurecTakip;Integrated Securit" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\\SQLEXPRESS;Initial Catalog=SınavSurecTakip;Integrated Securit" +
             "y=True")]
         public string SınavSurecTakipConnectionString {
             get {
